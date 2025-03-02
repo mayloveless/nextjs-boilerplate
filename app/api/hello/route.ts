@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 // 定义 GET 请求处理函数
-export async function GET(req: NextRequest) {
+export async function GET() {
   return NextResponse.json({ message: 'Hello World!' })
 }
 
